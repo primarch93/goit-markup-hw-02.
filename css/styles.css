@@ -1,0 +1,260 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: #ffffff;
+}
+ul {
+  list-style: none;
+}
+/*логотип сайта*/
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: black;
+  text-decoration: none;
+}
+.accent {
+  color: #2196f3;
+
+  /*навігація*/
+}
+.site-nav {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link {
+  text-decoration: none;
+}
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+
+  /*контакти*/
+}
+.contact-list {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contact-link {
+  color: #212121;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #2196f3;
+}
+.contact-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  /* секція героя*/
+}
+.hero {
+  background-color: #2f303a;
+}
+.hero-link {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #f5f5f5;
+  text-transform: uppercase;
+}
+.button-link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+}
+/*секція наших властивостей*/
+
+.fichers {
+  background-color: #f5f5f5;
+}
+.fichers-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.fichers-description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+/*чим ми займаємося*/
+
+.works {
+  background-color: #f5f5f5;
+}
+.works-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.work-team {
+  background-color: #f5f4fa;
+}
+/*наша команда*/
+
+.team-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-name {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-speciality {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+.team-window {
+  background-color: #ffffff;
+}
+/*секція footer* та адреса*/
+
+.bottom {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  background-color: #2f303a;
+}
+.logo-bottom {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.accent-bottom {
+  color: #2196f3;
+}
+.adress-bottom {
+  font-style: normal;
+}
+.adress-street {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.adress-street:hover,
+.adress-street:focus {
+  color: #2196f3;
+}
+.adress-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.adress-link:hover,
+.adress-link:focus {
+  color: #2196f3;
+}
+/*портфоліо*/
+
+.portf-button-pages {
+  background-color: #f5f5f5;
+}
+.button-tap {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.button-tap:hover,
+.button-tap:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/*секція блоків робіт*/
+
+.block-topic {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.block-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.block-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
