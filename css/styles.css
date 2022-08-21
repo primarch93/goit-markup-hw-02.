@@ -2,6 +2,7 @@ body {
   background-color: #f5f5f5;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 header {
   background-color: #ffffff;
@@ -21,6 +22,9 @@ ul {
   color: black;
   text-decoration: none;
 }
+.logo {
+  caret-color: #2196f3;
+}
 .accent {
   color: #2196f3;
 
@@ -32,11 +36,13 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .site-nav .link {
   text-decoration: none;
 }
 .site-nav .link {
   color: #212121;
+  caret-color: #2196f3;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -51,7 +57,7 @@ ul {
   letter-spacing: 0.02em;
 }
 .contact-link {
-  color: #212121;
+  color: #757575;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -97,8 +103,6 @@ ul {
   background-color: #f5f5f5;
 }
 .fichers-header {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -107,8 +111,6 @@ ul {
   color: #212121;
 }
 .fichers-description {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -120,8 +122,6 @@ ul {
   background-color: #f5f5f5;
 }
 .works-header {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -134,8 +134,6 @@ ul {
 /*наша команда*/
 
 .team-header {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -144,7 +142,6 @@ ul {
   color: #212121;
 }
 .team-name {
-  font-family: "Roboto";
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
@@ -152,8 +149,6 @@ ul {
   color: #212121;
 }
 .team-speciality {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -165,15 +160,10 @@ ul {
 /*секція footer* та адреса*/
 
 .bottom {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
   background-color: #2f303a;
 }
 .logo-bottom {
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -188,8 +178,6 @@ ul {
   font-style: normal;
 }
 .adress-street {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -201,11 +189,9 @@ ul {
   color: #2196f3;
 }
 .adress-link {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -217,7 +203,23 @@ ul {
 /*портфоліо*/
 
 .portf-button-pages {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
+}
+
+.button-tap-l {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background-color: #2196f3;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.button-tap-l:hover,
+.button-tap-l:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .button-tap {
   font-size: 16px;
@@ -241,8 +243,6 @@ ul {
   border: 1px solid #eeeeee;
 }
 .block-header {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -250,8 +250,6 @@ ul {
   color: #212121;
 }
 .block-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
